@@ -64,7 +64,7 @@ class HomeScreen extends StatelessWidget {
                             scrollDirection: Axis.horizontal,
                             itemBuilder: (_, index) {
                               return TVerticalImageText(
-                                image: TImages.shoeIcon,
+                                image: TImages.animalIcon,
                                 title: 'Shoes',
                                 onTap: () {},
                               );
