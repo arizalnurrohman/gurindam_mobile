@@ -1,13 +1,15 @@
-import 'package:flutter/material.dart';
 
-import 'app.dart';
-
-void main() {
-//Todo: Add Widgets Binding
-  //Todo: Init Local Storage
-  //Todo: Await Native Splash
-  //Todo: Initialize Firebase
-  //Todo: Initialize Authentication
-
-  runApp(const App());
-}
+  import 'package:flutter/material.dart';
+  import 'package:get/get.dart';
+  
+  void main() async {
+    WidgetsFlutterBinding.ensureInitialized();
+    
+    runApp(
+      GetMaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: Container(),
+      ),
+    );
+  }
+        
