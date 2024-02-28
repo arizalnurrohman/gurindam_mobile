@@ -38,8 +38,9 @@ class TPricingCalculator {
   }
 
   /// -- Sum all cart values and return total amount
+  /*
   static double calculateCartTotal(CartModel cart) {
     return cart.items.map((e) => e.price).fold(0,
         (previousPrice, currentPrice) => previousPrice + (currentPrice ?? 0));
-  }
+  }*/
 }

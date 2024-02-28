@@ -1,3 +1,4 @@
+/*
 import 'dart:async';
 import 'package:get/get.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
@@ -17,7 +18,8 @@ class NetworkManager extends GetxController {
   @override
   void onInit() {
     super.onInit();
-    _connectivitySubscription = _connectivity.onConnectivityChanged.listen(_updateConnectionStatus);
+    _connectivitySubscription =
+        _connectivity.onConnectivityChanged.listen(_updateConnectionStatus);
   }
 
   /// Update the connection status based on changes in connectivity and show a relevant popup for no internet connection.
@@ -50,3 +52,4 @@ class NetworkManager extends GetxController {
     _connectivitySubscription.cancel();
   }
 }
+*/
