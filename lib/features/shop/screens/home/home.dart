@@ -58,7 +58,7 @@ class HomeScreen extends StatelessWidget {
                     child: Column(
                       children: [
                         ///-- heading
-                        TSelectionHeading(
+                        TSectionHeading(
                           title: 'Popular Categories',
                           showActionButton: false,
                           textColor: Colors.white,
@@ -88,6 +88,9 @@ class HomeScreen extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: TSizes.spaceBtwSections),
+
+                  const TSectionHeading(title: 'Popular Product'),
+                  const SizedBox(height: TSizes.spaceBtwItems),
 
                   /// --popular product
                   TGridLayout(

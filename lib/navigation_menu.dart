@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gurindam/features/shop/screens/home/home.dart';
+import 'package:gurindam/features/shop/screens/store/store.dart';
 import 'package:gurindam/utils/constants/colors.dart';
 import 'package:gurindam/utils/helpers/helper_functions.dart';
 import 'package:iconsax/iconsax.dart';
@@ -46,7 +47,8 @@ class NavigationController extends GetxController {
   final screen = [
     const HomeScreen(),
     //Container(color: Colors.green),
-    Container(color: Colors.purple),
+    const StoreScreen(),
+    //Container(color: Colors.purple),
     Container(color: Colors.orange),
     Container(color: Colors.red),
   ];
